@@ -1,0 +1,25 @@
+{
+    "name": "coding-timer",
+    "displayName": "Coding Timer",
+    "description": "Tracks the time spent coding in VS Code",
+    "version": "1.0.0",
+    "publisher": "serbutenko",
+    "engines": {
+        "vscode": "^1.76.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "codingTimer.showTime",
+                "title": "Show Coding Time"
+            }
+        ]
+    }
+}
